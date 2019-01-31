@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Register</h1>
+<form>
+<fieldset>
+    <label>
+    First Name:
+    <input id = fname type="text" placeholder="John" required> <!-- Make First and Last name required, as well as checkbox for agreeing to the terms-->
+    Last Name:
+    <input id="lname" type="text" placeholder="Doe" required> <!-- Make First and Last name required, as well as checkbox for agreeing to the terms-->
+    </label>
+</fieldset>
+<fieldset>
+    <label>
+    Male
+    <input type="radio" id="mgender">    <!--radio-->
+    Female
+    <input type="radio" id="fgender">   <!--radio-->
+    Other
+    <input type="radio" id="ogender">   <!--radio-->
+    <label>
+</fieldset>
+<fieldset>
+    <label>
+        Email:
+        <input id= email type="text" placeholder="Your e-mail">
+        Password:
+        <input id="pass" type="text" placeholder="Your Password">
+    </label>
+</fieldset>
+<fieldset>
+    <label>
+        Birthday:
+        <input type="date" name="birthday">  <!--uses birthday input-->
+    </label>
+</fieldset>
+    <fieldset><label>
+    I agree to the terms and conditions  <!--required-->
+    <input type="checkbox" required>
+</label>
+    </fieldset>
+    <button name="Submit">Submit</button>
+</form>
+</body>
+</html>
